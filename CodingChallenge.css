@@ -1,0 +1,81 @@
+body{
+  background-image: url('background.jpg');
+  background-size:cover;
+}
+
+.container{
+  width: 1000px;
+  height:700px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.LimLogo{
+  display: block;
+  width: 200px;
+  margin:auto;
+}
+
+.Intro{
+  color:lime;
+  text-align: center;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+.ButtonContainer{
+  height: 35px;
+  width:70%;
+  background-color: lime;
+  margin:auto;
+}
+
+.buttons{
+  display: inline-block;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+main{
+  width: 70%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+section{
+  display:block;
+  margin-top: 30px;
+  color: white
+}
+
+.Name, .Dettagli{
+  display: inline-block;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+hr{
+  border: 10px solid;
+  border-radius: 5px;
+  margin-left: 0px
+}
+
+#hr1{
+  border-color: orange;
+  width: 40%;
+}
+
+#hr2{
+  border-color: lime;
+  width: 80%;
+}
+
+#hr3{
+  border-color: red;
+  width: 20%;
+}
